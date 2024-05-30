@@ -48,7 +48,7 @@ class Trianlge : IHasArea
 static class AreaCalculator<T> where T : IHasArea  
  + CalculateArea(T hasArea)  
 ```  
-Подробнее см. [MindboxTask](https://github.com/kgaudium/MinboxTask/tree/master/MindboxTask)
+Подробнее см. [MindboxTask](MindboxTask/)
 
 #### Классы Unit-тестов проекта MindboxTaskTests:
 ```csharp  
@@ -70,7 +70,7 @@ class AreaCalculatorTests
  + CalculateArea_CircleWithRadius10_Returns100Pi()
  + CalculateArea_TriangleWithSides3And4And5_Returns6()  
 ```  
-Подробнее см. [MindboxTaskTests](https://github.com/kgaudium/MinboxTask/tree/master/MindboxTaskTests)
+Подробнее см. [MindboxTaskTests](MindboxTaskTests/)
 Для реализации *Unit-тестов* был использован фреймворк *NUnit 3*.
 
 ### Задание про SQL-запрос
