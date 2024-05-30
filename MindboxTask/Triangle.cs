@@ -20,7 +20,7 @@ public class Triangle : IHasArea
     {
         if (IsRightTriangle())
         {
-            var sides = GetSides();
+            var sides = GetSidesDescending();
             return sides[1] * sides[2] * 0.5;
         }
         
@@ -36,12 +36,12 @@ public class Triangle : IHasArea
 
     public bool IsRightTriangle()
     {
-        var sides = GetSides();
+        var sides = GetSidesDescending();
         double diff = Math.Pow(sides[0], 2) - (Math.Pow(sides[1], 2) + Math.Pow(sides[2], 2));
         return Math.Abs(diff) < 1e-10;
     }
 
-    public double[] GetSides()
+    public double[] GetSidesDescending()
     {
         double[] sides = [Side1, Side2, Side3];
         return sides.OrderDescending().ToArray();

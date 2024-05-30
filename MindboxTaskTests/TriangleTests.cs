@@ -67,10 +67,10 @@ public class TriangleTests
     }
     
     [Test]
-    public void GetSides_Sides8And2And5_ReturnsSidesInDescendingOrder()
+    public void GetSidesDescending_Sides8And2And5_ReturnsSidesInDescendingOrder()
     {
         Triangle triangle = new Triangle(8, 2, 5);
-        double[] actualValue = triangle.GetSides();
+        double[] actualValue = triangle.GetSidesDescending();
 
         bool firstIs8 = actualValue[0] == 8;
         bool secondIs5 = actualValue[1] == 5;
