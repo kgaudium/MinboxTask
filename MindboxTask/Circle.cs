@@ -6,6 +6,10 @@ public class Circle : IHasArea
     
     public Circle(double radius=1)
     {
+        // Есть ли смысл в таком ограничении? Зависит от контекста)
+        if (radius < 0)
+            throw new ArgumentException($"Radius can't be negative, given: {radius}");
+        
         Radius = radius;
     }
     

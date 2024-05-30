@@ -8,6 +8,9 @@ public class Triangle : IHasArea
 
     public Triangle(double side1, double side2, double side3)
     {
+        if (side1 < 0 || side2 < 0 || side3 < 0)
+            throw new ArgumentException($"Sides cannot be negative, given: {side1}, {side2}, {side3}");
+        
         Side1 = side1;
         Side2 = side2;
         Side3 = side3;

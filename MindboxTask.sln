@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxTask", "MindboxTask\MindboxTask.csproj", "{367EB9E1-61A4-4E22-9445-DF1E559B166E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxTaskTest", "MindboxTaskTest\MindboxTaskTest.csproj", "{FBE5C048-6051-450B-AD77-9B71AD37C210}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxTaskTests", "MindboxTaskTests\MindboxTaskTests.csproj", "{FBE5C048-6051-450B-AD77-9B71AD37C210}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
